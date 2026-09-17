@@ -57,3 +57,7 @@ DM Serif Display, normaal en cursief, lokaal opgeslagen voor de koppen. Bron: [G
 ## Origineel bedrijfslogo
 
 `site/assets/verwoert-logo.png` is de ongewijzigde transparante versie van het bestaande bedrijfslogo (480 × 143 pixels): https://verwoertboom-loonbedrijf.nl/wp-content/uploads/2017/09/logo.png . Gevonden via de openbare WordPress-mediabibliotheek op 17 september 2026; gebruikt in de header en footer van alle pagina’s.
+
+## Personeelsadvertentie
+
+Op 17 september 2026 leverde de gebruiker een personeelsadvertentie aan met de opdracht deze op de site te plaatsen. `site/assets/vacature-machinist-boomkwekerij.jpg` is het ongewijzigde bestand. Dit is een afzonderlijke aanlevering, los van de twaalf bedrijfsfoto’s hierboven. De functie, locatie, fulltime inzet, werkzaamheden, opleidingsmogelijkheden, salarisomschrijving en prestatiebonus op `site/vacature.html` zijn hieruit overgenomen. Contactpersoon volgens deze advertentie: Ruth Verwoert, 06-12828605, info@verwoertboom-loonbedrijf.nl. Er zijn geen salarisbedragen, urenaantallen, contractduur of sluitingsdatum toegevoegd.

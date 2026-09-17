@@ -10,16 +10,17 @@ De vormgeving heeft het karakter van een verzorgde kwekerijcatalogus: een gecent
 
 De complete website staat in `site/` en bestaat uit gewone HTML, CSS en JavaScript. Geen database, CMS, framework, npm-installatie of bouwstap nodig.
 
-| Bestand                    | Inhoud                                             |
-| -------------------------- | -------------------------------------------------- |
-| `site/index.html`          | Homepage, over ons, fotogalerij en contact         |
-| `site/boomkwekerij.html`   | Vollegrondsteelt, 9 foto's en totaalleverancier    |
-| `site/containerteelt.html` | Bomen in pot en plantzak, 3 foto's                 |
-| `site/loonwerk.html`       | Doorverwijzing van de oude URL naar boomkwekerij   |
-| `site/privacy.html`        | Feitelijke privacy-informatie over deze website    |
-| `site/styles.css`          | Alle vormgeving en responsive opmaak               |
-| `site/script.js`           | Mobiel menu, fotogalerij en jaartal                |
-| `site/assets/`             | Lokale foto’s, lettertype, favicon en fontlicentie |
+| Bestand                    | Inhoud                                                 |
+| -------------------------- | ------------------------------------------------------ |
+| `site/index.html`          | Homepage, over ons, fotogalerij en contact             |
+| `site/boomkwekerij.html`   | Vollegrondsteelt, 9 foto's en totaalleverancier        |
+| `site/containerteelt.html` | Bomen in pot en plantzak, 3 foto's                     |
+| `site/vacature.html`       | Vacature Machinist Boomkwekerij en direct solliciteren |
+| `site/loonwerk.html`       | Doorverwijzing van de oude URL naar boomkwekerij       |
+| `site/privacy.html`        | Feitelijke privacy-informatie over deze website        |
+| `site/styles.css`          | Alle vormgeving en responsive opmaak                   |
+| `site/script.js`           | Mobiel menu, fotogalerij en jaartal                    |
+| `site/assets/`             | Lokale foto’s, lettertype, favicon en fontlicentie     |
 
 Pas tekst rechtstreeks in de betreffende HTML-pagina aan. Algemene contactgegevens staan ook in de gedeelde kop- en voetteksten van de losse pagina’s. Houd die bij wijzigingen gelijk.
 
@@ -46,3 +47,7 @@ De bedrijfsinformatie komt van [de bestaande website](https://verwoertboom-loonb
 De lettertypen Manrope (lopende tekst) en DM Serif Display (koppen, normaal en cursief) zijn lokaal opgeslagen onder de SIL Open Font License; zie `site/assets/FONT-LICENSE.txt` en `site/assets/DM-SERIF-LICENSE.txt`. De bedrijfsfoto’s en merkidentiteit behouden hun bestaande rechten. Het openbaar maken van deze repository verleent geen algemene hergebruiklicentie voor die beelden.
 
 De website gebruikt geen analytics, externe fontverzoeken of ingebedde kaarten. Google Maps wordt pas geopend na een klik op de routelink.
+
+## Vacature
+
+De vacature Machinist Boomkwekerij staat op `site/vacature.html`, in de hoofdnavigatie en op de homepage. Tekst en voorwaarden komen uit de aangeleverde personeelsadvertentie van 17 september 2026. De originele JPG is ongewijzigd te bekijken en te downloaden. Solliciteren gaat rechtstreeks via telefoon of e-mail aan Ruth Verwoert; er worden geen sollicitaties op de website opgeslagen. Werk bij het sluiten van de vacature ook het homepageblok en de navigatie bij.
