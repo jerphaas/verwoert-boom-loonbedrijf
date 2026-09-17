@@ -32,7 +32,7 @@ document.addEventListener("click", (event) => {
   )
     closeMenu();
 });
-window.matchMedia("(min-width: 851px)").addEventListener("change", (event) => {
+window.matchMedia("(min-width: 1001px)").addEventListener("change", (event) => {
   if (event.matches) closeMenu();
 });
 document.querySelectorAll("[data-year]").forEach((element) => {

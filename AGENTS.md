@@ -11,3 +11,4 @@
 - Bewaar tijdelijk onderzoek en controles in genegeerde `work/`. Neem geen credentials of tijdelijke data op in Git.
 
 - Gebruik het echte bedrijfslogo `site/assets/verwoert-logo.png` (originele transparante PNG) in header en footer. Behoud vorm, kleuren en verhoudingen; vervang dit niet door een getypte merknaam of een nieuw ontwerp.
+- De gebruiker wil een eigen lay-out die zich onderscheidt van eerder gemaakte websites (17 september 2026). De huidige richting gebruikt een gecentreerd logo, grote schreefletters, een boogfoto met werkfoto, brede dienstenregels en een asymmetrische galerij. Houd bij vervolgwerk de variatie in composities en de eigen bedrijfsidentiteit als uitgangspunt.

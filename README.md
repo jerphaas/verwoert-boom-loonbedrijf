@@ -2,6 +2,8 @@
 
 Een nieuwe, statische bedrijfswebsite met eigen bedrijfsfotografie, een responsive ontwerp, informatie over boomkwekerij en loonwerk, een fotogalerij en direct contact.
 
+De vormgeving heeft het karakter van een verzorgde kwekerijcatalogus: een gecentreerd origineel logo, grote schreefletters, een boogvormige openingsfoto met een kleinere werkfoto, brede dienstenregels en een asymmetrische fotogalerij. Warme papier-, blad- en groentinten sluiten aan op de bestaande merkidentiteit.
+
 **Website:** https://jerphaas.github.io/verwoert-boom-loonbedrijf/
 
 ## Eenvoudig te onderhouden
@@ -40,6 +42,6 @@ Deze GitHub Pages-versie vervangt het bestaande bedrijfsdomein niet. De telefoon
 
 Bedrijfsinformatie en foto’s komen van [de bestaande website](https://verwoertboom-loonbedrijf.nl/), geraadpleegd op 17 september 2026. De foto’s zijn als geoptimaliseerde WebP-bestanden opgenomen. Zie [SOURCES.md](SOURCES.md) voor de herkomst. Er zijn geen klantbeoordelingen, projectresultaten of certificeringen verzonnen.
 
-Het lettertype Manrope is lokaal opgeslagen en beschikbaar onder de SIL Open Font License; zie `site/assets/FONT-LICENSE.txt`. De bedrijfsfoto’s en merkidentiteit behouden hun bestaande rechten. Het openbaar maken van deze repository verleent geen algemene hergebruiklicentie voor die beelden.
+De lettertypen Manrope (lopende tekst) en DM Serif Display (koppen, normaal en cursief) zijn lokaal opgeslagen onder de SIL Open Font License; zie `site/assets/FONT-LICENSE.txt` en `site/assets/DM-SERIF-LICENSE.txt`. De bedrijfsfoto’s en merkidentiteit behouden hun bestaande rechten. Het openbaar maken van deze repository verleent geen algemene hergebruiklicentie voor die beelden.
 
 De website gebruikt geen analytics, externe fontverzoeken of ingebedde kaarten. Google Maps wordt pas geopend na een klik op de routelink.

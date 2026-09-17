@@ -17,6 +17,13 @@
       type="font/woff2"
       crossorigin
     />
+    <link
+      rel="preload"
+      href="assets/dm-serif-normal.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
     <link rel="stylesheet" href="styles.css" />
     <script src="script.js" defer></script>
   </head>
@@ -50,54 +57,57 @@
       </nav>
     </header>
     <main id="main">
-      <section class="hero" aria-labelledby="hero-heading">
-        <img
-          class="hero-image"
-          src="assets/hero.webp"
-          alt="Bomen op de kwekerij van R. Verwoert in de Betuwe"
-          width="1440"
-          height="810"
-          fetchpriority="high"
-        />
-        <div class="hero-shade"></div>
-        <div class="hero-content container">
-          <p class="eyebrow light">
-            <span></span> VANUIT DE BETUWE. SINDS 2002.
-          </p>
-          <h1 id="hero-heading">
-            Sterk geworteld.<br />Klaar voor <em>morgen.</em>
-          </h1>
+      <section class="field-hero container" aria-labelledby="hero-heading">
+        <div class="field-intro">
+          <p class="eyebrow">BOOMKWEKERIJ & LOONBEDRIJF · HERVELD</p>
+          <h1 id="hero-heading">Sterk<br /><em>geworteld.</em></h1>
+          <p class="hero-subtitle">Klaar voor morgen.</p>
           <p class="hero-intro">
             Mooie bomen. Vakkundig loonwerk. En mensen die hun afspraken
             nakomen. Dat is R. Verwoert.
           </p>
-          <a class="button button-lime" href="#expertise"
-            >Ontdek wat we doen <span aria-hidden="true">↗</span></a
+          <a class="button button-dark" href="#expertise"
+            >Ontdek ons bedrijf <span aria-hidden="true">↗</span></a
           >
         </div>
-        <div class="hero-bottom container">
-          <span
-            >BOOMKWEKERIJ &nbsp; / &nbsp; LOONWERK &nbsp; / &nbsp;
-            TOTAALLEVERANCIER</span
-          ><a href="#expertise" aria-label="Scroll naar onze expertise"
-            >ONTDEK VERWOERT <span aria-hidden="true">↓</span></a
+        <div class="field-composition">
+          <figure class="field-main-photo">
+            <img
+              src="assets/hero.webp"
+              alt="Groene lanen tussen de bomen op onze kwekerij in de Betuwe"
+              width="1440"
+              height="810"
+              fetchpriority="high"
+            />
+            <figcaption>GEKWEEKT IN DE BETUWE</figcaption>
+          </figure>
+          <div class="field-seal">
+            <span>MET AANDACHT</span><strong>sinds<br />2002</strong
+            ><span>VOOR GROEI</span>
+          </div>
+          <figure class="field-inset">
+            <img
+              src="assets/galerij-4.webp"
+              alt="Verwoert aan het werk tussen de bomen"
+              width="1600"
+              height="900"
+            />
+            <figcaption>Ons vak. Elke dag.</figcaption>
+          </figure>
+        </div>
+        <div class="field-index" aria-label="Onze specialismen">
+          <a href="boomkwekerij.html"
+            ><span>01</span> Boomkwekerij <span aria-hidden="true">↗</span></a
+          >
+          <a href="loonwerk.html"
+            ><span>02</span> Loonwerk <span aria-hidden="true">↗</span></a
+          >
+          <a href="boomkwekerij.html#totaalleverancier"
+            ><span>03</span> Totaalleverancier
+            <span aria-hidden="true">↗</span></a
           >
         </div>
       </section>
-      <div class="promise-bar">
-        <div class="container promise-inner">
-          <span
-            ><span class="check" aria-hidden="true">✓</span> Geworteld in de
-            Betuwe</span
-          ><span
-            ><span class="check" aria-hidden="true">✓</span> Kweken met oog voor
-            morgen</span
-          ><span
-            ><span class="check" aria-hidden="true">✓</span> Afspraak is
-            afspraak</span
-          >
-        </div>
-      </div>
       <section
         class="section container"
         id="expertise"
@@ -105,85 +115,83 @@
       >
         <div class="section-heading">
           <div>
-            <p class="eyebrow">01 / ONZE EXPERTISE</p>
-            <h2 id="expertise-heading">
-              Alles voor<br />een sterke <span class="text-green">groei.</span>
-            </h2>
+            <p class="eyebrow">KWEKEN. VERZORGEN. LEVEREN.</p>
+            <h2 id="expertise-heading">Ruimte voor <em>groei.</em></h2>
           </div>
           <p>
             Van de eerste aanplant tot de levering van uw bomen. Met kennis,
             aandacht en de juiste machines helpen we uw plannen groeien.
           </p>
         </div>
-        <div class="service-grid">
-          <a class="service-card" href="boomkwekerij.html"
-            ><div class="service-image">
-              <img
-                src="assets/kwekerij.webp"
-                alt="Bomen in de vollegrond op onze kwekerij"
-                width="900"
-                height="675"
-                loading="lazy"
-              /><span class="service-number">01</span
-              ><span class="circle-link" aria-hidden="true">↗</span>
-            </div>
-            <div class="service-copy">
+        <div class="service-list">
+          <a class="service-row" href="boomkwekerij.html">
+            <span class="service-index">01</span>
+            <div class="service-title">
+              <span class="service-category">VAN EIGEN BODEM</span>
               <h3>Boomkwekerij</h3>
+            </div>
+            <div class="service-description">
               <p>
                 Een breed assortiment, gekweekt op de vruchtbare Betuwse klei.
                 In de vollegrond én in container.
               </p>
-              <span class="text-link"
-                >Ontdek onze kwekerij <span aria-hidden="true">↗</span></span
-              >
-            </div></a
-          >
-          <a class="service-card" href="loonwerk.html"
-            ><div class="service-image">
-              <img
-                src="assets/loonwerk.webp"
-                alt="Gespecialiseerde machine aan het werk op de boomkwekerij"
-                width="900"
-                height="675"
-                loading="lazy"
-              /><span class="service-number">02</span
-              ><span class="circle-link" aria-hidden="true">↗</span>
+              <span>Ontdek onze kwekerij</span>
             </div>
-            <div class="service-copy">
+            <img
+              src="assets/kwekerij.webp"
+              alt="Bomen in de vollegrond op onze kwekerij"
+              width="1440"
+              height="1080"
+              loading="lazy"
+            />
+            <span class="row-arrow" aria-hidden="true">↗</span>
+          </a>
+          <a class="service-row" href="loonwerk.html">
+            <span class="service-index">02</span>
+            <div class="service-title">
+              <span class="service-category">KENNIS & KRACHT</span>
               <h3>Loonwerk</h3>
+            </div>
+            <div class="service-description">
               <p>
                 Van planten en snoeien tot stokken steken en kluiten rooien. Het
                 werk op uw kwekerij in vakkundige handen.
               </p>
-              <span class="text-link"
-                >Bekijk onze werkzaamheden
-                <span aria-hidden="true">↗</span></span
-              >
-            </div></a
-          >
-          <a class="service-card" href="boomkwekerij.html#totaalleverancier"
-            ><div class="service-image">
-              <img
-                src="assets/assortiment.webp"
-                alt="Assortiment bomen en beplanting voor hoveniers en groenaanleggers"
-                width="900"
-                height="675"
-                loading="lazy"
-              /><span class="service-number">03</span
-              ><span class="circle-link" aria-hidden="true">↗</span>
+              <span>Bekijk onze werkzaamheden</span>
             </div>
-            <div class="service-copy">
-              <h3>Totaalleverancier</h3>
+            <img
+              src="assets/loonwerk.webp"
+              alt="Gespecialiseerde machine voor de boomkwekerij"
+              width="1600"
+              height="900"
+              loading="lazy"
+            />
+            <span class="row-arrow" aria-hidden="true">↗</span>
+          </a>
+          <a class="service-row" href="boomkwekerij.html#totaalleverancier">
+            <span class="service-index">03</span>
+            <div class="service-title">
+              <span class="service-category">ÉÉN AANSPREEKPUNT</span>
+              <h3>
+                Totaal<span class="desktop-break"><br /></span>leverancier
+              </h3>
+            </div>
+            <div class="service-description">
               <p>
                 Een compleet beplantingspakket voor hoveniers en
                 groenaanleggers. Eén aanspreekpunt, korte lijnen.
               </p>
-              <span class="text-link"
-                >Samen uw project bespreken
-                <span aria-hidden="true">↗</span></span
-              >
-            </div></a
-          >
+              <span>Bespreek uw beplantingsplan</span>
+            </div>
+            <img
+              src="assets/assortiment.webp"
+              alt="Bomen geladen voor levering"
+              width="1600"
+              height="900"
+              loading="lazy"
+            />
+            <span class="row-arrow" aria-hidden="true">↗</span>
+          </a>
         </div>
       </section>
       <section
@@ -191,36 +199,45 @@
         id="over-ons"
         aria-labelledby="about-heading"
       >
-        <div class="about-photo">
-          <img
-            src="assets/over-ons.webp"
-            alt="Het containerveld van R. Verwoert van bovenaf"
-            width="1200"
-            height="1400"
-            loading="lazy"
-          />
-          <div class="since-stamp">
-            <strong>2002</strong><span>HIER LIGGEN<br />ONZE WORTELS</span>
+        <div class="container about-layout">
+          <div class="about-content">
+            <p class="eyebrow light">DE MENSEN ACHTER VERWOERT</p>
+            <h2 id="about-heading">Afspraak<br />is <em>afspraak.</em></h2>
+            <p class="about-lead">
+              Een hart voor groen.<br />Een nuchtere kijk op werk.
+            </p>
+            <div class="about-story">
+              <p>
+                Wat in 2002 begon met een perceel in Dodewaard, groeide uit tot
+                een veelzijdige boomkwekerij en loonbedrijf in de Betuwe.
+              </p>
+              <p>
+                Vandaag brengen we teeltkennis, een breed machinepark en een
+                enthousiast team samen. We denken mee, steken de handen uit de
+                mouwen en houden de lijnen kort.
+              </p>
+            </div>
+            <a class="text-link light-link" href="#contact"
+              >Maak kennis met ons <span aria-hidden="true">↗</span></a
+            >
           </div>
-        </div>
-        <div class="about-content">
-          <p class="eyebrow light">02 / AANGENAAM, VERWOERT</p>
-          <h2 id="about-heading">
-            Een hart voor groen.<br />Een nuchtere<br />kijk op <em>werk.</em>
-          </h2>
-          <p>
-            Wat in 2002 begon met een perceel in Dodewaard, groeide uit tot een
-            veelzijdige boomkwekerij en loonbedrijf in de Betuwe.
-          </p>
-          <p>
-            Vandaag brengen we teeltkennis, een breed machinepark en een
-            enthousiast team samen. We denken mee, steken de handen uit de
-            mouwen en houden de lijnen kort.
-          </p>
-          <blockquote>“Afspraak is afspraak.”</blockquote>
-          <a class="button button-outline" href="#contact"
-            >Maak kennis met ons <span aria-hidden="true">↗</span></a
-          >
+          <figure class="about-photo">
+            <img
+              src="assets/over-ons.webp"
+              alt="Het containerveld van R. Verwoert van bovenaf"
+              width="1080"
+              height="1080"
+              loading="lazy"
+            />
+            <figcaption>
+              <strong>Van eigen bodem.</strong
+              ><span>Met zorg gekweekt, met plezier geleverd.</span>
+            </figcaption>
+          </figure>
+          <div class="about-footnote">
+            <span>ONZE WORTELS LIGGEN IN DE BETUWE</span
+            ><span>HERVELD, NEDERLAND</span>
+          </div>
         </div>
       </section>
       <section
@@ -230,10 +247,8 @@
       >
         <div class="section-heading">
           <div>
-            <p class="eyebrow">03 / EEN KIJKJE OP HET BEDRIJF</p>
-            <h2 id="gallery-heading">
-              Ons werk.<br />In <span class="text-green">beeld.</span>
-            </h2>
+            <p class="eyebrow">EEN BLIK ACHTER DE SCHERMEN</p>
+            <h2 id="gallery-heading">Ons werk, <em>van dichtbij.</em></h2>
           </div>
           <p>
             Met beide voeten in de klei. Bekijk onze bomen, machines en het werk
@@ -315,10 +330,10 @@
         <div class="container">
           <div class="contact-top">
             <div>
-              <p class="eyebrow light">04 / WE DENKEN GRAAG MEE</p>
-              <h2 id="contact-heading">
-                Wat kunnen we<br />voor u <em>betekenen?</em>
-              </h2>
+              <p class="eyebrow light">
+                GOEDE PLANNEN BEGINNEN MET EEN GESPREK
+              </p>
+              <h2 id="contact-heading">Zullen we<br /><em>kennismaken?</em></h2>
             </div>
             <div class="contact-intro">
               <p>

@@ -27,9 +27,11 @@ De bestaande foto’s worden voor deze website hergebruikt, zonder aanspraak op 
 | `assets/containerteelt.webp` | https://verwoertboom-loonbedrijf.nl/wp-content/uploads/2017/09/DSCN5694.jpg             |
 | `assets/stokken.webp`        | https://verwoertboom-loonbedrijf.nl/wp-content/uploads/2017/09/tco95-Large.jpg          |
 
-## Lettertype
+## Lettertypen
 
 Manrope, lokaal opgeslagen. SIL Open Font License: `site/assets/FONT-LICENSE.txt`. Bron: Google Fonts / google/fonts.
+
+DM Serif Display, normaal en cursief, lokaal opgeslagen voor de koppen. Bron: [Google Fonts](https://fonts.google.com/specimen/DM+Serif+Display), geraadpleegd op 17 september 2026. SIL Open Font License: `site/assets/DM-SERIF-LICENSE.txt`, afkomstig uit [google/fonts](https://github.com/google/fonts/blob/main/ofl/dmserifdisplay/OFL.txt).
 
 ## Origineel bedrijfslogo
 
