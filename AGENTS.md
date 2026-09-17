@@ -9,3 +9,5 @@
 - De contactroute is bewust `tel:` en `mailto:`. Plaats geen formulier dat zonder backend toch een verzonden-bevestiging toont.
 - Controleer na visuele wijzigingen de daadwerkelijke pagina op desktop en mobiel, inclusief mobiel menu, galerij en interne links. Controleer na publicatie de geslaagde Pages-uitrol van de juiste commit en de live site.
 - Bewaar tijdelijk onderzoek en controles in genegeerde `work/`. Neem geen credentials of tijdelijke data op in Git.
+
+- Gebruik het echte bedrijfslogo `site/assets/verwoert-logo.png` (originele transparante PNG) in header en footer. Behoud vorm, kleuren en verhoudingen; vervang dit niet door een getypte merknaam of een nieuw ontwerp.

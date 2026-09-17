@@ -123,27 +123,18 @@ summary:focus-visible {
   z-index: 30;
   border-bottom: 1px solid transparent;
 }
+.wordmark-logo {
+  display: block;
+  width: 240px;
+  height: auto;
+}
 .wordmark {
   display: inline-flex;
   flex-direction: column;
   flex-shrink: 0;
   line-height: 1.15;
 }
-.wordmark-name {
-  font-size: 1.7rem;
-  letter-spacing: -0.055em;
-  font-weight: 800;
-  white-space: nowrap;
-}
-.brand-dot {
-  color: #719247;
-}
-.wordmark-sub {
-  font-size: 0.625rem;
-  letter-spacing: 0.18em;
-  font-weight: 700;
-  margin-top: 7px;
-}
+
 .main-nav {
   display: flex;
   align-items: center;
@@ -927,12 +918,7 @@ body:has(.lightbox[open]) {
     gap: 18px;
     padding-inline: 16px;
   }
-  .wordmark-name {
-    font-size: 1.45rem;
-  }
-  .wordmark-sub {
-    font-size: 0.5625rem;
-  }
+
   .hero {
     height: 710px;
     min-height: 600px;
@@ -971,9 +957,7 @@ body:has(.lightbox[open]) {
     padding-block: 19px;
     min-height: 85px;
   }
-  .wordmark-name {
-    font-size: 1.5rem;
-  }
+
   .menu-toggle {
     display: flex;
     align-items: center;
@@ -1172,14 +1156,7 @@ body:has(.lightbox[open]) {
   .site-header {
     min-height: 80px;
   }
-  .wordmark-name {
-    font-size: 1.4rem;
-  }
-  .wordmark-sub {
-    font-size: 0.5rem;
-    letter-spacing: 0.145em;
-    margin-top: 6px;
-  }
+
   .hero {
     min-height: 590px;
     height: calc(100svh - 80px);
@@ -1538,5 +1515,22 @@ body:has(.lightbox[open]) {
 }
 
 @media (max-width: 600px) {
-  .detail-hero h1 { font-size: clamp(2.1rem, 10.5vw, 2.8rem); }
+  .detail-hero h1 {
+    font-size: clamp(2.1rem, 10.5vw, 2.8rem);
+  }
+}
+
+/* Keep the complete original logo readable without crowding the mobile menu. */
+@media (max-width: 850px) {
+  .wordmark-logo {
+    width: 210px;
+  }
+}
+@media (max-width: 600px) {
+  .site-header {
+    gap: 1rem;
+  }
+  .wordmark-logo {
+    width: clamp(150px, 46vw, 180px);
+  }
 }
