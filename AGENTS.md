@@ -12,3 +12,5 @@
 
 - Gebruik het echte bedrijfslogo `site/assets/verwoert-logo.png` (originele transparante PNG) in header en footer. Behoud vorm, kleuren en verhoudingen; vervang dit niet door een getypte merknaam of een nieuw ontwerp.
 - De gebruiker wil een eigen lay-out die zich onderscheidt van eerder gemaakte websites (17 september 2026). De huidige richting gebruikt een gecentreerd logo, grote schreefletters, een boogfoto met werkfoto, brede dienstenregels en een asymmetrische galerij. Houd bij vervolgwerk de variatie in composities en de eigen bedrijfsidentiteit als uitgangspunt.
+- De aangeleverde correctie van 17 september 2026 gaat voor op oude bedrijfsinformatie: bied loonwerk niet meer aan als dienst. Behoud Loonbedrijf uitsluitend in de bedrijfsnaam en het originele logo. Boomkwekerij en containerteelt hebben ieder een eigen pagina en fotogalerij. De oude loonwerk-URL verwijst door naar boomkwekerij.
+- Alle twaalf aangeleverde bedrijfsfoto's (Foto 1 t/m 12) worden gebruikt; zie de toewijzing in SOURCES.md. Foto 13 is een privébericht met instructies en hoort nooit in de website of openbare repository.

@@ -664,6 +664,78 @@ button:focus-visible {
 .gallery-item:hover img {
   transform: scale(1.04);
 }
+/* Complete photo stories retain the supplied portrait and landscape formats. */
+.photo-section {
+  border-top: 1px solid var(--line);
+}
+.photo-journal {
+  columns: 3;
+  column-gap: 30px;
+}
+.photo-card {
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0 0 30px;
+  break-inside: avoid;
+  border: 0;
+  background: transparent;
+  color: var(--forest);
+  text-align: left;
+}
+.photo-card img {
+  width: 100%;
+  height: auto;
+}
+.photo-card > span {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 15px;
+  padding: 14px 0 18px;
+  border-bottom: 1px solid var(--line);
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+.photo-card > span > span {
+  flex-shrink: 0;
+  font-size: 1.25rem;
+}
+.photo-card:hover > span {
+  color: var(--gold);
+  border-bottom-color: var(--gold);
+}
+.gallery-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 16px 35px;
+  margin-top: 32px;
+}
+.detail-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+.cultivation-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  border-top: 1px solid var(--line);
+}
+.cultivation-link h2 {
+  font-size: clamp(2.3rem, 4vw, 4rem);
+}
+.cultivation-link p:not(.eyebrow) {
+  max-width: 580px;
+  margin-top: 24px;
+  color: var(--muted);
+}
+.cultivation-link .button {
+  flex-shrink: 0;
+}
 /* Warm leaf colour closes the page with personal contact. */
 .contact-section {
   background: #dfca97;
@@ -1962,6 +2034,43 @@ body:has(.lightbox[open]) {
   }
   .privacy-content h1 {
     font-size: 3rem;
+  }
+}
+.about-photo-landscape > img {
+  height: auto;
+  border-bottom-right-radius: 80px;
+}
+@media (max-width: 1000px) {
+  .photo-journal {
+    columns: 2;
+    column-gap: 24px;
+  }
+  .cultivation-link {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 28px;
+  }
+}
+@media (max-width: 600px) {
+  .photo-journal {
+    columns: 1;
+  }
+  .photo-card {
+    margin-bottom: 26px;
+  }
+  .gallery-links {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .gallery-links .text-link {
+    font-size: 0.8125rem;
+    gap: 14px;
+  }
+  .about-photo-landscape > img {
+    border-bottom-right-radius: 50px;
+  }
+  .photo-section h2 {
+    font-size: clamp(2.4rem, 10vw, 3.3rem);
   }
 }
 @media (prefers-reduced-motion: reduce) {

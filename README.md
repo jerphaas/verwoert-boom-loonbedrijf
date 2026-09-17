@@ -1,6 +1,6 @@
 # R. Verwoert — Boomkwekerij & Loonbedrijf
 
-Een nieuwe, statische bedrijfswebsite met eigen bedrijfsfotografie, een responsive ontwerp, informatie over boomkwekerij en loonwerk, een fotogalerij en direct contact.
+Een statische bedrijfswebsite met eigen bedrijfsfotografie, een responsive ontwerp, afzonderlijke pagina's voor boomkwekerij en containerteelt, fotogalerijen en direct contact. Loonbedrijf blijft in de bedrijfsnaam; loonwerk wordt niet als dienst aangeboden.
 
 De vormgeving heeft het karakter van een verzorgde kwekerijcatalogus: een gecentreerd origineel logo, grote schreefletters, een boogvormige openingsfoto met een kleinere werkfoto, brede dienstenregels en een asymmetrische fotogalerij. Warme papier-, blad- en groentinten sluiten aan op de bestaande merkidentiteit.
 
@@ -10,15 +10,16 @@ De vormgeving heeft het karakter van een verzorgde kwekerijcatalogus: een gecent
 
 De complete website staat in `site/` en bestaat uit gewone HTML, CSS en JavaScript. Geen database, CMS, framework, npm-installatie of bouwstap nodig.
 
-| Bestand                  | Inhoud                                             |
-| ------------------------ | -------------------------------------------------- |
-| `site/index.html`        | Homepage, over ons, fotogalerij en contact         |
-| `site/boomkwekerij.html` | Boomkwekerij, containerteelt en totaalleverancier  |
-| `site/loonwerk.html`     | Werkzaamheden en machines                          |
-| `site/privacy.html`      | Feitelijke privacy-informatie over deze website    |
-| `site/styles.css`        | Alle vormgeving en responsive opmaak               |
-| `site/script.js`         | Mobiel menu, fotogalerij en jaartal                |
-| `site/assets/`           | Lokale foto’s, lettertype, favicon en fontlicentie |
+| Bestand                    | Inhoud                                             |
+| -------------------------- | -------------------------------------------------- |
+| `site/index.html`          | Homepage, over ons, fotogalerij en contact         |
+| `site/boomkwekerij.html`   | Vollegrondsteelt, 9 foto's en totaalleverancier    |
+| `site/containerteelt.html` | Bomen in pot en plantzak, 3 foto's                 |
+| `site/loonwerk.html`       | Doorverwijzing van de oude URL naar boomkwekerij   |
+| `site/privacy.html`        | Feitelijke privacy-informatie over deze website    |
+| `site/styles.css`          | Alle vormgeving en responsive opmaak               |
+| `site/script.js`           | Mobiel menu, fotogalerij en jaartal                |
+| `site/assets/`             | Lokale foto’s, lettertype, favicon en fontlicentie |
 
 Pas tekst rechtstreeks in de betreffende HTML-pagina aan. Algemene contactgegevens staan ook in de gedeelde kop- en voetteksten van de losse pagina’s. Houd die bij wijzigingen gelijk.
 
@@ -40,7 +41,7 @@ Deze GitHub Pages-versie vervangt het bestaande bedrijfsdomein niet. De telefoon
 
 ## Inhoud en beeld
 
-Bedrijfsinformatie en foto’s komen van [de bestaande website](https://verwoertboom-loonbedrijf.nl/), geraadpleegd op 17 september 2026. De foto’s zijn als geoptimaliseerde WebP-bestanden opgenomen. Zie [SOURCES.md](SOURCES.md) voor de herkomst. Er zijn geen klantbeoordelingen, projectresultaten of certificeringen verzonnen.
+De bedrijfsinformatie komt van [de bestaande website](https://verwoertboom-loonbedrijf.nl/), geraadpleegd op 17 september 2026, en de later aangeleverde correcties. De twaalf door de gebruiker aangeleverde bedrijfsfoto's zijn als WebP-bestanden opgenomen, met behoud van de volledige beeldverhouding in de teeltgalerijen. Portretfoto's blijven ook in de vergroting volledig zichtbaar. De homepage toont een selectie en linkt naar beide complete galerijen. Zie [SOURCES.md](SOURCES.md) voor de herkomst en toewijzing. Er zijn geen klantbeoordelingen, projectresultaten of certificeringen verzonnen.
 
 De lettertypen Manrope (lopende tekst) en DM Serif Display (koppen, normaal en cursief) zijn lokaal opgeslagen onder de SIL Open Font License; zie `site/assets/FONT-LICENSE.txt` en `site/assets/DM-SERIF-LICENSE.txt`. De bedrijfsfoto’s en merkidentiteit behouden hun bestaande rechten. Het openbaar maken van deze repository verleent geen algemene hergebruiklicentie voor die beelden.
 

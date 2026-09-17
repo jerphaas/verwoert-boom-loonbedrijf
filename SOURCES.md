@@ -9,9 +9,30 @@ Geraadpleegd op 17 september 2026. Bedrijfsgegevens zijn overgenomen van de best
 - https://verwoertboom-loonbedrijf.nl/loonwerk/
 - https://verwoertboom-loonbedrijf.nl/contact/
 
-## Bedrijfsfoto’s
+## Aangeleverde bedrijfsfoto's
 
-De bestaande foto’s worden voor deze website hergebruikt, zonder aanspraak op een algemene hergebruiklicentie. WebP-bestanden zijn geoptimaliseerd vanuit de originelen.
+Op 17 september 2026 zijn twaalf bedrijfsfoto's aangeleverd voor publicatie. Deze vervangen de eerdere beelden in de zichtbare website. De bestanden zijn omgezet naar WebP, zonder creatieve bewerking; oriëntatie en beeldverhouding zijn behouden. EXIF-metadata is niet meegenomen. De bijbehorende privé-instructieafbeelding (Foto 13) wordt niet gepubliceerd.
+
+| Aanlevering | Bestand in `site/assets/`      | Volledige galerij |
+| ----------- | ------------------------------ | ----------------- |
+| Foto 1      | `foto-01-transport.webp`       | Boomkwekerij      |
+| Foto 2      | `foto-02-rooien.webp`          | Boomkwekerij      |
+| Foto 3      | `foto-03-winterwerk.webp`      | Boomkwekerij      |
+| Foto 4      | `foto-04-levering.webp`        | Boomkwekerij      |
+| Foto 5      | `foto-05-plantzakken.webp`     | Containerteelt    |
+| Foto 6      | `foto-06-bedrijf-winter.webp`  | Boomkwekerij      |
+| Foto 7      | `foto-07-kluitenrooier.webp`   | Boomkwekerij      |
+| Foto 8      | `foto-08-groenblijvend.webp`   | Boomkwekerij      |
+| Foto 9      | `foto-09-containerbomen.webp`  | Containerteelt    |
+| Foto 10     | `foto-10-leibomen.webp`        | Containerteelt    |
+| Foto 11     | `foto-11-bomen-met-kluit.webp` | Boomkwekerij      |
+| Foto 12     | `foto-12-vollegrond.webp`      | Boomkwekerij      |
+
+Dezelfde aanlevering corrigeert de positionering: loonwerk vervalt als dienst; Loonbedrijf blijft in de bedrijfsnaam. Boomkwekerij en containerteelt krijgen afzonderlijke pagina's.
+
+## Eerdere bedrijfsfoto’s
+
+Onderstaande bestanden uit de eerste versie blijven bewaard, maar worden niet meer in de pagina's gebruikt. De bestaande beeldrechten blijven van toepassing. WebP-bestanden zijn geoptimaliseerd vanuit de originelen.
 
 | Lokaal bestand               | Originele bron                                                                          |
 | ---------------------------- | --------------------------------------------------------------------------------------- |
