@@ -1521,7 +1521,7 @@ body:has(.lightbox[open]) {
 }
 
 /* Keep the complete original logo readable without crowding the mobile menu. */
-@media (max-width: 850px) {
+@media (max-width: 1050px) {
   .wordmark-logo {
     width: 210px;
   }
