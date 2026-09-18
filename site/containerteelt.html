@@ -24,8 +24,8 @@
       type="font/woff2"
       crossorigin
     />
-    <link rel="stylesheet" href="styles.css" />
-    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css?v=20260918" />
+    <script src="script.js?v=20260918" defer></script>
   </head>
   <body>
     <a class="skip-link" href="#main">Direct naar inhoud</a>
@@ -293,55 +293,98 @@
             </h2>
           </div>
           <p>
-            Bomen in plantzakken, bomen in pot en leibomen op ons containerveld.
-            Klik op een foto om deze volledig te bekijken.
+            Tussen de rijen groeit het assortiment. Ontdek onze bomen in
+            plantzakken, de teelt in pot en de leibomen op het containerveld.
           </p>
         </div>
-        <div class="photo-journal">
-          <button
-            class="photo-card"
-            data-gallery="assets/foto-05-plantzakken.webp"
-            data-caption="Groei in plantzakken"
-            aria-label="Vergroot foto: groei in plantzakken"
+        <div
+          class="photo-slider"
+          role="region"
+          aria-roledescription="carrousel"
+          aria-label="Containerteelt in beeld"
+        >
+          <div
+            class="photo-journal"
+            id="photo-rail"
+            tabindex="0"
+            role="group"
+            aria-label="Foto’s van onze containerteelt"
+            aria-describedby="slider-hint"
           >
-            <img
-              src="assets/foto-05-plantzakken.webp"
-              alt="Lange rijen bomen in zwarte plantzakken langs een verhard pad"
-              width="960"
-              height="1280"
-              loading="lazy"
-            /><span
-              >Groei in plantzakken<span aria-hidden="true">↗</span></span
-            ></button
-          ><button
-            class="photo-card"
-            data-gallery="assets/foto-09-containerbomen.webp"
-            data-caption="Bomen in container"
-            aria-label="Vergroot foto: bomen in container"
-          >
-            <img
-              src="assets/foto-09-containerbomen.webp"
-              alt="Bomen in zwarte potten aan weerszijden van een groen graspad"
-              width="960"
-              height="1280"
-              loading="lazy"
-            /><span
-              >Bomen in container<span aria-hidden="true">↗</span></span
-            ></button
-          ><button
-            class="photo-card"
-            data-gallery="assets/foto-10-leibomen.webp"
-            data-caption="Leibomen in pot"
-            aria-label="Vergroot foto: leibomen in pot"
-          >
-            <img
-              src="assets/foto-10-leibomen.webp"
-              alt="Leibomen met bamboerekken in potten op het containerveld"
-              width="719"
-              height="1280"
-              loading="lazy"
-            /><span>Leibomen in pot<span aria-hidden="true">↗</span></span>
-          </button>
+            <button
+              class="photo-card"
+              style="--photo-ratio: 0.75"
+              data-gallery="assets/foto-05-plantzakken.webp"
+              data-caption="Groei in plantzakken"
+              aria-label="Vergroot foto: groei in plantzakken"
+            >
+              <img
+                src="assets/foto-05-plantzakken.webp"
+                alt="Lange rijen bomen in zwarte plantzakken langs een verhard pad"
+                width="960"
+                height="1280"
+                loading="lazy"
+              /><span
+                >Groei in plantzakken<span aria-hidden="true">↗</span></span
+              ></button
+            ><button
+              class="photo-card"
+              style="--photo-ratio: 0.75"
+              data-gallery="assets/foto-09-containerbomen.webp"
+              data-caption="Bomen in container"
+              aria-label="Vergroot foto: bomen in container"
+            >
+              <img
+                src="assets/foto-09-containerbomen.webp"
+                alt="Bomen in zwarte potten aan weerszijden van een groen graspad"
+                width="960"
+                height="1280"
+                loading="lazy"
+              /><span
+                >Bomen in container<span aria-hidden="true">↗</span></span
+              ></button
+            ><button
+              class="photo-card"
+              style="--photo-ratio: 0.561719"
+              data-gallery="assets/foto-10-leibomen.webp"
+              data-caption="Leibomen in pot"
+              aria-label="Vergroot foto: leibomen in pot"
+            >
+              <img
+                src="assets/foto-10-leibomen.webp"
+                alt="Leibomen met bamboerekken in potten op het containerveld"
+                width="719"
+                height="1280"
+                loading="lazy"
+              /><span>Leibomen in pot<span aria-hidden="true">↗</span></span>
+            </button>
+          </div>
+          <div class="slider-toolbar" hidden>
+            <p class="slider-count" data-slider-count>01 / 03</p>
+            <div class="slider-progress" aria-hidden="true"><span></span></div>
+            <div class="slider-arrows">
+              <button
+                type="button"
+                data-slider-prev
+                aria-label="Vorige foto’s in de slider"
+                aria-controls="photo-rail"
+              >
+                <span aria-hidden="true">←</span>
+              </button>
+              <button
+                type="button"
+                data-slider-next
+                aria-label="Volgende foto’s in de slider"
+                aria-controls="photo-rail"
+              >
+                <span aria-hidden="true">→</span>
+              </button>
+            </div>
+          </div>
+          <p class="slider-hint" id="slider-hint">
+            Blader met de pijlen of veeg door de foto’s. Klik op een beeld om
+            het te vergroten.
+          </p>
         </div>
       </section>
       <section class="section container cultivation-link">

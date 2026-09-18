@@ -664,46 +664,154 @@ button:focus-visible {
 .gallery-item:hover img {
   transform: scale(1.04);
 }
-/* Complete photo stories retain the supplied portrait and landscape formats. */
+/* A horizontal photo journal, with the full portrait and landscape frames. */
 .photo-section {
   border-top: 1px solid var(--line);
 }
+.photo-slider {
+  --photo-height: clamp(340px, 36vw, 470px);
+  min-width: 0;
+}
 .photo-journal {
-  columns: 3;
-  column-gap: 30px;
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: thin;
+  scrollbar-color: var(--green) var(--line);
+  padding: 8px 6px 12px;
+  margin-inline: -6px;
+}
+.photo-journal:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 6px;
+}
+.is-enhanced .photo-journal {
+  scrollbar-width: none;
+}
+.is-enhanced .photo-journal::-webkit-scrollbar {
+  display: none;
 }
 .photo-card {
-  display: block;
-  width: 100%;
+  flex: 0 0 auto;
+  width: calc(var(--photo-height) * var(--photo-ratio, 0.75));
+  max-width: 88%;
   padding: 0;
-  margin: 0 0 30px;
-  break-inside: avoid;
+  margin: 0;
   border: 0;
   background: transparent;
   color: var(--forest);
   text-align: left;
+  scroll-snap-align: start;
+  scroll-margin-left: 6px;
 }
 .photo-card img {
   width: 100%;
   height: auto;
+  border-radius: 3px;
 }
 .photo-card > span {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
   gap: 15px;
-  padding: 14px 0 18px;
+  padding: 18px 0 12px;
   border-bottom: 1px solid var(--line);
   font-size: 0.875rem;
   line-height: 1.6;
+  transition:
+    color 0.3s,
+    border-color 0.3s;
 }
 .photo-card > span > span {
+  display: grid;
+  place-items: center;
   flex-shrink: 0;
-  font-size: 1.25rem;
+  width: 34px;
+  height: 34px;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  font-size: 1.125rem;
+  transition:
+    background 0.3s,
+    color 0.3s,
+    transform 0.3s;
 }
 .photo-card:hover > span {
   color: var(--gold);
   border-bottom-color: var(--gold);
+}
+.photo-card:hover > span > span {
+  background: var(--forest);
+  border-color: var(--forest);
+  color: var(--paper);
+  transform: rotate(45deg);
+}
+.slider-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  margin-top: 25px;
+}
+.slider-toolbar[hidden] {
+  display: none;
+}
+.slider-count {
+  min-width: 100px;
+  font-size: 0.875rem;
+  font-variant-numeric: tabular-nums;
+  color: var(--forest);
+}
+.slider-progress {
+  height: 2px;
+  flex: 1;
+  background: var(--line);
+  overflow: hidden;
+}
+.slider-progress span {
+  display: block;
+  height: 100%;
+  background: var(--forest);
+  transform-origin: left;
+}
+.slider-arrows {
+  display: flex;
+  gap: 10px;
+}
+.slider-arrows button {
+  display: grid;
+  place-items: center;
+  width: 54px;
+  height: 54px;
+  padding: 0;
+  border: 1px solid var(--forest);
+  border-radius: 50%;
+  background: var(--forest);
+  color: var(--paper);
+  font-size: 1.5rem;
+  transition:
+    background 0.3s,
+    color 0.3s,
+    transform 0.3s,
+    opacity 0.3s;
+}
+.slider-arrows button:disabled {
+  background: transparent;
+  color: var(--forest);
+  border-color: var(--line);
+  opacity: 0.35;
+  cursor: default;
+}
+.slider-arrows button:not(:disabled):hover {
+  background: var(--green);
+  transform: translateY(-2px);
+}
+.slider-hint {
+  margin-top: 20px;
+  font-size: 0.75rem;
+  color: var(--muted);
 }
 .gallery-links {
   display: flex;
@@ -2041,10 +2149,6 @@ body:has(.lightbox[open]) {
   border-bottom-right-radius: 80px;
 }
 @media (max-width: 1000px) {
-  .photo-journal {
-    columns: 2;
-    column-gap: 24px;
-  }
   .cultivation-link {
     flex-direction: column;
     align-items: flex-start;
@@ -2052,11 +2156,23 @@ body:has(.lightbox[open]) {
   }
 }
 @media (max-width: 600px) {
-  .photo-journal {
-    columns: 1;
+  .photo-slider {
+    --photo-height: 360px;
   }
-  .photo-card {
-    margin-bottom: 26px;
+  .photo-journal {
+    gap: 18px;
+  }
+  .slider-toolbar {
+    gap: 14px;
+    margin-top: 14px;
+  }
+  .slider-count {
+    min-width: 80px;
+    font-size: 0.75rem;
+  }
+  .slider-arrows button {
+    width: 46px;
+    height: 46px;
   }
   .gallery-links {
     flex-direction: column;
@@ -2774,6 +2890,44 @@ body:has(.lightbox[open]) {
   .assortment-note .text-link,
   .multistem-intro .text-link {
     font-size: 0.75rem;
+  }
+}
+/* Restrained motion: no autoplay, looping effects or background parallax. */
+@keyframes soft-appear {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes veil-appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.lightbox[open] {
+  animation: soft-appear 0.35s ease-out;
+}
+.lightbox[open]::backdrop {
+  animation: veil-appear 0.35s ease-out;
+}
+.button > span,
+.text-link > span {
+  transition: transform 0.35s cubic-bezier(0.2, 0.65, 0.3, 1);
+}
+.button:hover > span,
+.text-link:hover > span {
+  transform: translateX(3px);
+}
+@media (max-width: 1000px) {
+  .main-nav.is-open {
+    animation: soft-appear 0.25s ease-out;
   }
 }
 @media (prefers-reduced-motion: reduce) {

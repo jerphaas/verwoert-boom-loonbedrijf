@@ -19,7 +19,7 @@ De complete website staat in `site/` en bestaat uit gewone HTML, CSS en JavaScri
 | `site/loonwerk.html`       | Doorverwijzing van de oude URL naar boomkwekerij       |
 | `site/privacy.html`        | Feitelijke privacy-informatie over deze website        |
 | `site/styles.css`          | Alle vormgeving en responsive opmaak                   |
-| `site/script.js`           | Mobiel menu, fotogalerij en jaartal                    |
+| `site/script.js`           | Mobiel menu, fotosliders, vergroting, zachte animaties en jaartal |
 | `site/assets/`             | Lokale foto’s, lettertype, favicon en fontlicentie     |
 
 Pas tekst rechtstreeks in de betreffende HTML-pagina aan. Algemene contactgegevens staan ook in de gedeelde kop- en voetteksten van de losse pagina’s. Houd die bij wijzigingen gelijk.
@@ -47,6 +47,8 @@ De bedrijfsinformatie komt van [de bestaande website](https://verwoertboom-loonb
 De lettertypen Manrope (lopende tekst) en DM Serif Display (koppen, normaal en cursief) zijn lokaal opgeslagen onder de SIL Open Font License; zie `site/assets/FONT-LICENSE.txt` en `site/assets/DM-SERIF-LICENSE.txt`. De bedrijfsfoto’s en merkidentiteit behouden hun bestaande rechten. Het openbaar maken van deze repository verleent geen algemene hergebruiklicentie voor die beelden.
 
 De website gebruikt geen analytics, externe fontverzoeken of ingebedde kaarten. Google Maps wordt pas geopend na een klik op de routelink.
+
+De teeltgalerijen zijn horizontale fotosliders met pijlen, native veegbediening, toetsenbordbediening en een voortgangslijn. Alle twaalf foto's behouden hun volledige verhouding en kunnen worden vergroot. Zonder JavaScript blijft de fotostrook horizontaal scrollbaar. De site gebruikt eenmalige, zachte binnenkomstanimaties en respecteert de voorkeur voor minder beweging; de sliders spelen niet automatisch. Gedeelde CSS en JavaScript hebben een versienummer in de HTML-verwijzingen om verouderde browsercache na publicatie te voorkomen.
 
 ## Vacature
 

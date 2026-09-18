@@ -17,4 +17,6 @@
 
 - De aangeleverde personeelsadvertentie van 17 september 2026 is de bron voor `site/vacature.html` (Machinist Boomkwekerij, fulltime, Herveld e.o.). Contactpersoon: Ruth Verwoert. De originele advertentie staat ongewijzigd in `site/assets/vacature-machinist-boomkwekerij.jpg`. Behoud de voorwaarden uit deze bron; voeg geen salarisbedragen, urenaantallen of eisen toe. De vacature is ook bereikbaar via het homepageblok en de gedeelde navigatie.
 
+- De teeltgalerijen gebruiken native horizontale fotosliders met pijlen, voortgang, toetsenbord- en veegbediening (18 september 2026). Behoud alle twaalf volledige beeldverhoudingen en de vergroting. Geen autoplay; zachte binnenkomstanimaties spelen eenmaal en respecteren `prefers-reduced-motion`. Houd het versienummer van gedeelde CSS/JS-verwijzingen in alle HTML-pagina's gelijk en vernieuw dit bij wijzigingen aan die bestanden.
+
 - Assortimentuitbreiding van 18 september 2026: laan- en sierbomen, vormbomen, fruitbomen en meerstammige bomen, zowel in pot als in de vollegrond. Meerstammen hebben een eigen kopje op beide teeltpagina’s. De soortvoorbeelden bij containerteelt zijn gecontroleerd in Beurs Opheusden (relatie 155); zie SOURCES.md. Behandel de zomerstand als momentopname: geen vaste voorraadaantallen, prijzen of onbevestigde leverbeloften publiceren. Publiceer de aangeleverde privéberichten niet.

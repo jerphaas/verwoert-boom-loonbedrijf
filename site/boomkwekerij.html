@@ -24,8 +24,8 @@
       type="font/woff2"
       crossorigin
     />
-    <link rel="stylesheet" href="styles.css" />
-    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css?v=20260918" />
+    <script src="script.js?v=20260918" defer></script>
   </head>
   <body>
     <a class="skip-link" href="#main">Direct naar inhoud</a>
@@ -236,153 +236,208 @@
             <h2 id="photos-heading">Van teelt<br />tot <em>levering.</em></h2>
           </div>
           <p>
-            Een kijkje tussen de bomen, tijdens het rooien en op ons erf. Klik
-            op een foto om deze volledig te bekijken.
+            Wandel mee over de kwekerij. Van groene bomenrijen tot het rooien en
+            de laatste rit naar ons erf: dit is ons werk, in beeld.
           </p>
         </div>
-        <div class="photo-journal">
-          <button
-            class="photo-card"
-            data-gallery="assets/foto-12-vollegrond.webp"
-            data-caption="Geworteld in de vollegrond"
-            aria-label="Vergroot foto: geworteld in de vollegrond"
+        <div
+          class="photo-slider"
+          role="region"
+          aria-roledescription="carrousel"
+          aria-label="Boomkwekerij in beeld"
+        >
+          <div
+            class="photo-journal"
+            id="photo-rail"
+            tabindex="0"
+            role="group"
+            aria-label="Foto’s van onze boomkwekerij"
+            aria-describedby="slider-hint"
           >
-            <img
-              src="assets/foto-12-vollegrond.webp"
-              alt="Laanbomen in de vollegrond langs een grasstrook op de kwekerij"
-              width="960"
-              height="1280"
-              loading="lazy"
-            /><span
-              >Geworteld in de vollegrond<span aria-hidden="true"
-                >↗</span
-              ></span
-            ></button
-          ><button
-            class="photo-card"
-            data-gallery="assets/foto-02-rooien.webp"
-            data-caption="Samen aan het rooien"
-            aria-label="Vergroot foto: samen aan het rooien"
-          >
-            <img
-              src="assets/foto-02-rooien.webp"
-              alt="Medewerkers rooien bomen met een kluitenrooier tussen de herfstbomen"
-              width="1280"
-              height="960"
-              loading="lazy"
-            /><span
-              >Samen aan het rooien<span aria-hidden="true">↗</span></span
-            ></button
-          ><button
-            class="photo-card"
-            data-gallery="assets/foto-11-bomen-met-kluit.webp"
-            data-caption="Bomen met kluit"
-            aria-label="Vergroot foto: bomen met kluit"
-          >
-            <img
-              src="assets/foto-11-bomen-met-kluit.webp"
-              alt="Rijen gerooide bomen met ingepakte kluiten op het bedrijfsterrein"
-              width="960"
-              height="1280"
-              loading="lazy"
-            /><span
-              >Bomen met kluit<span aria-hidden="true">↗</span></span
-            ></button
-          ><button
-            class="photo-card"
-            data-gallery="assets/foto-08-groenblijvend.webp"
-            data-caption="Groenblijvend assortiment"
-            aria-label="Vergroot foto: groenblijvend assortiment"
-          >
-            <img
-              src="assets/foto-08-groenblijvend.webp"
-              alt="Groenblijvende naaldbomen op de kwekerij"
-              width="960"
-              height="1280"
-              loading="lazy"
-            /><span
-              >Groenblijvend assortiment<span aria-hidden="true">↗</span></span
-            ></button
-          ><button
-            class="photo-card"
-            data-gallery="assets/foto-01-transport.webp"
-            data-caption="Van het veld naar het erf"
-            aria-label="Vergroot foto: van het veld naar het erf"
-          >
-            <img
-              src="assets/foto-01-transport.webp"
-              alt="Tractor met aanhanger vol bomen met kluit op de kwekerij"
-              width="1280"
-              height="960"
-              loading="lazy"
-            /><span
-              >Van het veld naar het erf<span aria-hidden="true">↗</span></span
-            ></button
-          ><button
-            class="photo-card"
-            data-gallery="assets/foto-07-kluitenrooier.webp"
-            data-caption="Met zorg gerooid"
-            aria-label="Vergroot foto: met zorg gerooid"
-          >
-            <img
-              src="assets/foto-07-kluitenrooier.webp"
-              alt="Groene kluitenrooier bij een boom in een besneeuwde bomenrij"
-              width="960"
-              height="1280"
-              loading="lazy"
-            /><span
-              >Met zorg gerooid<span aria-hidden="true">↗</span></span
-            ></button
-          ><button
-            class="photo-card"
-            data-gallery="assets/foto-03-winterwerk.webp"
-            data-caption="Tussen de bomen in de winter"
-            aria-label="Vergroot foto: tussen de bomen in de winter"
-          >
-            <img
-              src="assets/foto-03-winterwerk.webp"
-              alt="Zicht vanaf een rooimachine tussen de bomen in een besneeuwd perceel"
-              width="960"
-              height="1280"
-              loading="lazy"
-            /><span
-              >Tussen de bomen in de winter<span aria-hidden="true"
-                >↗</span
-              ></span
-            ></button
-          ><button
-            class="photo-card"
-            data-gallery="assets/foto-04-levering.webp"
-            data-caption="Klaar voor de volgende stap"
-            aria-label="Vergroot foto: klaar voor de volgende stap"
-          >
-            <img
-              src="assets/foto-04-levering.webp"
-              alt="Twee aanhangers met gerooide bomen en kluiten op het bedrijfsterrein"
-              width="1280"
-              height="960"
-              loading="lazy"
-            /><span
-              >Klaar voor de volgende stap<span aria-hidden="true"
-                >↗</span
-              ></span
-            ></button
-          ><button
-            class="photo-card"
-            data-gallery="assets/foto-06-bedrijf-winter.webp"
-            data-caption="Ons bedrijf in de winter"
-            aria-label="Vergroot foto: ons bedrijf in de winter"
-          >
-            <img
-              src="assets/foto-06-bedrijf-winter.webp"
-              alt="Overzicht van het bedrijf, de schuren en de kwekerij in de sneeuw"
-              width="1280"
-              height="720"
-              loading="lazy"
-            /><span
-              >Ons bedrijf in de winter<span aria-hidden="true">↗</span></span
+            <button
+              class="photo-card"
+              style="--photo-ratio: 0.75"
+              data-gallery="assets/foto-12-vollegrond.webp"
+              data-caption="Geworteld in de vollegrond"
+              aria-label="Vergroot foto: geworteld in de vollegrond"
             >
-          </button>
+              <img
+                src="assets/foto-12-vollegrond.webp"
+                alt="Laanbomen in de vollegrond langs een grasstrook op de kwekerij"
+                width="960"
+                height="1280"
+                loading="lazy"
+              /><span
+                >Geworteld in de vollegrond<span aria-hidden="true"
+                  >↗</span
+                ></span
+              ></button
+            ><button
+              class="photo-card"
+              style="--photo-ratio: 1.333333"
+              data-gallery="assets/foto-02-rooien.webp"
+              data-caption="Samen aan het rooien"
+              aria-label="Vergroot foto: samen aan het rooien"
+            >
+              <img
+                src="assets/foto-02-rooien.webp"
+                alt="Medewerkers rooien bomen met een kluitenrooier tussen de herfstbomen"
+                width="1280"
+                height="960"
+                loading="lazy"
+              /><span
+                >Samen aan het rooien<span aria-hidden="true">↗</span></span
+              ></button
+            ><button
+              class="photo-card"
+              style="--photo-ratio: 0.75"
+              data-gallery="assets/foto-11-bomen-met-kluit.webp"
+              data-caption="Bomen met kluit"
+              aria-label="Vergroot foto: bomen met kluit"
+            >
+              <img
+                src="assets/foto-11-bomen-met-kluit.webp"
+                alt="Rijen gerooide bomen met ingepakte kluiten op het bedrijfsterrein"
+                width="960"
+                height="1280"
+                loading="lazy"
+              /><span
+                >Bomen met kluit<span aria-hidden="true">↗</span></span
+              ></button
+            ><button
+              class="photo-card"
+              style="--photo-ratio: 0.75"
+              data-gallery="assets/foto-08-groenblijvend.webp"
+              data-caption="Groenblijvend assortiment"
+              aria-label="Vergroot foto: groenblijvend assortiment"
+            >
+              <img
+                src="assets/foto-08-groenblijvend.webp"
+                alt="Groenblijvende naaldbomen op de kwekerij"
+                width="960"
+                height="1280"
+                loading="lazy"
+              /><span
+                >Groenblijvend assortiment<span aria-hidden="true"
+                  >↗</span
+                ></span
+              ></button
+            ><button
+              class="photo-card"
+              style="--photo-ratio: 1.333333"
+              data-gallery="assets/foto-01-transport.webp"
+              data-caption="Van het veld naar het erf"
+              aria-label="Vergroot foto: van het veld naar het erf"
+            >
+              <img
+                src="assets/foto-01-transport.webp"
+                alt="Tractor met aanhanger vol bomen met kluit op de kwekerij"
+                width="1280"
+                height="960"
+                loading="lazy"
+              /><span
+                >Van het veld naar het erf<span aria-hidden="true"
+                  >↗</span
+                ></span
+              ></button
+            ><button
+              class="photo-card"
+              style="--photo-ratio: 0.75"
+              data-gallery="assets/foto-07-kluitenrooier.webp"
+              data-caption="Met zorg gerooid"
+              aria-label="Vergroot foto: met zorg gerooid"
+            >
+              <img
+                src="assets/foto-07-kluitenrooier.webp"
+                alt="Groene kluitenrooier bij een boom in een besneeuwde bomenrij"
+                width="960"
+                height="1280"
+                loading="lazy"
+              /><span
+                >Met zorg gerooid<span aria-hidden="true">↗</span></span
+              ></button
+            ><button
+              class="photo-card"
+              style="--photo-ratio: 0.75"
+              data-gallery="assets/foto-03-winterwerk.webp"
+              data-caption="Tussen de bomen in de winter"
+              aria-label="Vergroot foto: tussen de bomen in de winter"
+            >
+              <img
+                src="assets/foto-03-winterwerk.webp"
+                alt="Zicht vanaf een rooimachine tussen de bomen in een besneeuwd perceel"
+                width="960"
+                height="1280"
+                loading="lazy"
+              /><span
+                >Tussen de bomen in de winter<span aria-hidden="true"
+                  >↗</span
+                ></span
+              ></button
+            ><button
+              class="photo-card"
+              style="--photo-ratio: 1.333333"
+              data-gallery="assets/foto-04-levering.webp"
+              data-caption="Klaar voor de volgende stap"
+              aria-label="Vergroot foto: klaar voor de volgende stap"
+            >
+              <img
+                src="assets/foto-04-levering.webp"
+                alt="Twee aanhangers met gerooide bomen en kluiten op het bedrijfsterrein"
+                width="1280"
+                height="960"
+                loading="lazy"
+              /><span
+                >Klaar voor de volgende stap<span aria-hidden="true"
+                  >↗</span
+                ></span
+              ></button
+            ><button
+              class="photo-card"
+              style="--photo-ratio: 1.777778"
+              data-gallery="assets/foto-06-bedrijf-winter.webp"
+              data-caption="Ons bedrijf in de winter"
+              aria-label="Vergroot foto: ons bedrijf in de winter"
+            >
+              <img
+                src="assets/foto-06-bedrijf-winter.webp"
+                alt="Overzicht van het bedrijf, de schuren en de kwekerij in de sneeuw"
+                width="1280"
+                height="720"
+                loading="lazy"
+              /><span
+                >Ons bedrijf in de winter<span aria-hidden="true"
+                  >↗</span
+                ></span
+              >
+            </button>
+          </div>
+          <div class="slider-toolbar" hidden>
+            <p class="slider-count" data-slider-count>01 / 09</p>
+            <div class="slider-progress" aria-hidden="true"><span></span></div>
+            <div class="slider-arrows">
+              <button
+                type="button"
+                data-slider-prev
+                aria-label="Vorige foto’s in de slider"
+                aria-controls="photo-rail"
+              >
+                <span aria-hidden="true">←</span>
+              </button>
+              <button
+                type="button"
+                data-slider-next
+                aria-label="Volgende foto’s in de slider"
+                aria-controls="photo-rail"
+              >
+                <span aria-hidden="true">→</span>
+              </button>
+            </div>
+          </div>
+          <p class="slider-hint" id="slider-hint">
+            Blader met de pijlen of veeg door de foto’s. Klik op een beeld om
+            het te vergroten.
+          </p>
         </div>
       </section>
       <section class="wide-feature" id="totaalleverancier">
