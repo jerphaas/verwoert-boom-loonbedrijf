@@ -61,3 +61,20 @@ DM Serif Display, normaal en cursief, lokaal opgeslagen voor de koppen. Bron: [G
 ## Personeelsadvertentie
 
 Op 17 september 2026 leverde de gebruiker een personeelsadvertentie aan met de opdracht deze op de site te plaatsen. `site/assets/vacature-machinist-boomkwekerij.jpg` is het ongewijzigde bestand. Dit is een afzonderlijke aanlevering, los van de twaalf bedrijfsfoto’s hierboven. De functie, locatie, fulltime inzet, werkzaamheden, opleidingsmogelijkheden, salarisomschrijving en prestatiebonus op `site/vacature.html` zijn hieruit overgenomen. Contactpersoon volgens deze advertentie: Ruth Verwoert, 06-12828605, info@verwoertboom-loonbedrijf.nl. Er zijn geen salarisbedragen, urenaantallen, contractduur of sluitingsdatum toegevoegd.
+
+## Assortiment en meerstammige bomen — 18 september 2026
+
+De gebruiker vroeg het aanbod van R. Verwoert op Beurs Opheusden te analyseren en de site uit te breiden met de vier groepen uit een aangeleverd bericht: laan- en sierbomen, vormbomen, fruitbomen en meerstammige bomen, zowel in pot als in de vollegrond. De kweker bevestigt daarin dat de meerstammenteelt de afgelopen jaren is uitgebreid. Het privébericht zelf wordt niet gepubliceerd.
+
+Bron: https://beursopheusden.nl/trees?Relation=155&SearchText=&page=1 . Alle drie resultaatpagina's zijn op 18 september 2026 bekeken via het reeds ingelogde browsertabblad, steeds met relatie 155 (Verwoert R. Boomk & Loonb). De zomerstand is een momentopname; de site presenteert daarom groepen en voorbeelden, geen aantallen, prijzen, volledige voorraad of gegarandeerde beschikbaarheid. Geen accountgegevens of orderinformatie zijn overgenomen. De website haalt deze lijst niet automatisch op.
+
+Onderbouwing van de voorbeelden bij containerteelt (alle met CONT in de bron):
+
+| Groep              | Gecontroleerde voorbeelden                                                                                                                 |
+| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| Laan- en sierbomen | Acer campestre 'Elsrijk', Liquidambar styraciflua, Prunus 'Accolade'                                                                       |
+| Vormbomen          | Carpinus betulus (LEI CONT), Platanus hispanica (DAK CONT), Catalpa bignonioides 'Nana' (op stam, CONT)                                    |
+| Fruitbomen         | Malus d. 'Elstar', Pyrus c. 'Conference', Prunus d. 'Opal', Prunus a. 'Kordia'                                                             |
+| Meerstammige bomen | Amelanchier lamarckii, Betula utilis 'Doorenbos', Parrotia persica, Magnolia 'Susan', Prunus serrula, Acer campestre (alle MULTISTAM CONT) |
+
+De botanische lijntekening is een decoratief vormbeeld van een meerstammige boom, geen foto of afbeelding van een aangeboden exemplaar. De twaalf bedrijfsfoto's en hun galerijen blijven behouden.

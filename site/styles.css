@@ -2435,6 +2435,347 @@ body:has(.lightbox[open]) {
     font-size: 0.9375rem;
   }
 }
+/* Assortment: a compact nursery catalogue, with space for multistem trees. */
+.assortment-section {
+  background: #e8eddf;
+}
+.assortment-shortcuts {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  border-top: 1px solid #becab5;
+  border-bottom: 1px solid #becab5;
+  margin-block: 34px 44px;
+}
+.assortment-shortcuts a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  padding: 22px 20px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+.assortment-shortcuts a + a {
+  border-left: 1px solid #becab5;
+}
+.assortment-shortcuts a:hover {
+  background: #dce5d1;
+}
+.assortment-shortcuts a > span {
+  color: var(--green);
+  flex-shrink: 0;
+}
+.assortment-cards {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 22px;
+}
+.assortment-card {
+  display: flex;
+  flex-direction: column;
+  padding: clamp(24px, 2.6vw, 40px);
+  background: var(--paper);
+  border-top: 3px solid #8c9e76;
+}
+.assortment-number {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--gold);
+  font-family: "DM Serif", Georgia, serif;
+  font-size: 1.7rem;
+  margin-bottom: 30px;
+}
+.assortment-number > span {
+  font-family: Manrope, Arial, sans-serif;
+  font-size: 0.625rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  color: var(--green);
+}
+.assortment-card h3 {
+  font-family: "DM Serif", Georgia, serif;
+  font-weight: 400;
+  font-size: clamp(2rem, 2.9vw, 2.8rem);
+  min-height: 2.2em;
+  line-height: 1.08;
+  margin-bottom: 20px;
+}
+.assortment-card > p:not(.assortment-number) {
+  font-size: 0.9375rem;
+  color: var(--muted);
+  margin-bottom: 30px;
+}
+.assortment-examples {
+  margin-top: auto;
+}
+.assortment-examples .eyebrow {
+  font-size: 0.5625rem;
+  letter-spacing: 0.09em;
+  margin-bottom: 14px;
+}
+.assortment-examples ul,
+.multistem-selection ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.assortment-examples li {
+  border-top: 1px solid var(--line);
+  padding-block: 12px;
+}
+.assortment-examples li span,
+.assortment-examples li i {
+  display: block;
+}
+.assortment-examples li span {
+  font-size: 0.6875rem;
+  color: var(--muted);
+  margin-bottom: 3px;
+}
+.assortment-examples li i {
+  font-style: normal;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+.multistem-feature {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 8%;
+  margin-top: 32px;
+  padding: clamp(30px, 4.8vw, 72px);
+  background: var(--forest);
+  color: var(--paper);
+}
+.multistem-feature h2 {
+  font-size: clamp(2.8rem, 4.4vw, 4.4rem);
+  margin-bottom: 26px;
+}
+.multistem-feature h2 em {
+  color: var(--lime);
+}
+.multistem-intro {
+  min-width: 0;
+}
+.multistem-intro > p:not(.eyebrow) {
+  color: #d8e1d2;
+  margin-top: 20px;
+  max-width: 510px;
+}
+.multistem-intro strong {
+  color: var(--paper);
+  font-weight: 600;
+}
+.multistem-intro .text-link {
+  margin-top: 30px;
+  color: var(--lime);
+  border-color: #e2c78870;
+  font-size: 0.875rem;
+}
+.multistem-selection {
+  position: relative;
+  align-self: center;
+  border-left: 1px solid #74866a;
+  padding-left: 36px;
+  min-width: 0;
+}
+.multistem-selection .multistem-drawing {
+  width: 80px;
+  height: 100px;
+  margin-left: auto;
+  margin-bottom: 22px;
+  color: var(--lime);
+}
+.multistem-selection .eyebrow {
+  margin-bottom: 14px;
+  font-size: 0.625rem;
+}
+.multistem-selection li {
+  border-top: 1px solid #ffffff26;
+  padding-block: 11px;
+  font-size: 0.9375rem;
+}
+.multistem-selection i {
+  font-style: normal;
+}
+.assortment-note {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  margin-top: 32px;
+}
+.assortment-note p {
+  max-width: 650px;
+  color: #53604c;
+  font-size: 0.8125rem;
+}
+.assortment-note .text-link {
+  flex-shrink: 0;
+  font-size: 0.8125rem;
+}
+.season-section {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 10%;
+  align-items: center;
+}
+.season-section > div > p:not(.eyebrow) {
+  color: var(--muted);
+  margin-bottom: 22px;
+}
+.season-section + .photo-section {
+  padding-top: 20px;
+}
+.home-assortment {
+  padding-top: 45px;
+}
+.home-assortment .eyebrow {
+  margin-bottom: 20px;
+}
+.home-assortment .assortment-shortcuts {
+  margin-block: 0;
+}
+.nursery-assortment {
+  padding-block: 10px 25px;
+}
+.nursery-assortment .assortment-shortcuts {
+  margin-bottom: 0;
+}
+.nursery-multistem .multistem-feature {
+  margin-top: 0;
+}
+.multistem-statement {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-left: 1px solid #74866a;
+  padding-left: 30px;
+}
+.multistem-statement .multistem-drawing {
+  width: 165px;
+  height: 206px;
+  color: var(--lime);
+  margin-bottom: 25px;
+}
+.multistem-statement p {
+  font:
+    400 clamp(1.5rem, 2.3vw, 2.3rem) / 1.25 "DM Serif",
+    Georgia,
+    serif;
+}
+.multistem-statement p em {
+  color: var(--lime);
+}
+.multistem-statement > span {
+  font-size: 0.5625rem;
+  letter-spacing: 0.12em;
+  color: #d8e1d2;
+  margin-top: 20px;
+}
+@media (max-width: 1000px) {
+  .assortment-shortcuts {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .assortment-shortcuts a:nth-child(3) {
+    border-left: 0;
+  }
+  .assortment-shortcuts a:nth-child(n + 3) {
+    border-top: 1px solid #becab5;
+  }
+  .assortment-cards {
+    gap: 14px;
+  }
+  .assortment-card {
+    padding: 24px 18px;
+  }
+  .assortment-number > span {
+    font-size: 0.5rem;
+    letter-spacing: 0.02em;
+  }
+  .multistem-feature {
+    gap: 6%;
+    padding: 36px;
+  }
+  .multistem-selection {
+    padding-left: 26px;
+  }
+  .assortment-note {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+@media (max-width: 760px) {
+  .assortment-cards,
+  .multistem-feature,
+  .season-section {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+  .assortment-card {
+    padding: 28px;
+  }
+  .assortment-card h3 {
+    min-height: 0;
+    font-size: 2.5rem;
+  }
+  .assortment-number > span {
+    font-size: 0.625rem;
+    letter-spacing: 0.08em;
+  }
+  .multistem-feature {
+    padding: 32px 26px;
+    gap: 36px;
+  }
+  .multistem-feature h2 {
+    font-size: clamp(2.25rem, 8.5vw, 3.5rem);
+  }
+  .multistem-selection,
+  .multistem-statement {
+    padding: 28px 0 0;
+    border-left: 0;
+    border-top: 1px solid #74866a;
+  }
+  .multistem-selection .multistem-drawing {
+    float: right;
+    width: 60px;
+    height: 75px;
+    margin: 0 0 12px 20px;
+  }
+  .multistem-selection ul {
+    clear: both;
+  }
+  .assortment-note .text-link,
+  .multistem-intro .text-link {
+    gap: 16px;
+    max-width: 100%;
+  }
+  .season-section h2 {
+    font-size: clamp(2.4rem, 9vw, 3.5rem);
+  }
+}
+@media (max-width: 480px) {
+  .assortment-shortcuts a {
+    font-size: 0.75rem;
+    padding: 16px 10px;
+    gap: 8px;
+  }
+  .assortment-card {
+    padding: 26px 22px;
+  }
+  .assortment-card h3 {
+    font-size: clamp(1.9rem, 8vw, 2.5rem);
+  }
+  .assortment-note .text-link,
+  .multistem-intro .text-link {
+    font-size: 0.75rem;
+  }
+}
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;

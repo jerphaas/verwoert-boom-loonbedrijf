@@ -51,3 +51,7 @@ De website gebruikt geen analytics, externe fontverzoeken of ingebedde kaarten. 
 ## Vacature
 
 De vacature Machinist Boomkwekerij staat op `site/vacature.html`, in de hoofdnavigatie en op de homepage. Tekst en voorwaarden komen uit de aangeleverde personeelsadvertentie van 17 september 2026. De originele JPG is ongewijzigd te bekijken en te downloaden. Solliciteren gaat rechtstreeks via telefoon of e-mail aan Ruth Verwoert; er worden geen sollicitaties op de website opgeslagen. Werk bij het sluiten van de vacature ook het homepageblok en de navigatie bij.
+
+## Assortiment
+
+De vier assortimentgroepen staan op de homepage en beide teeltpagina’s. Containerteelt bevat een selectie van gecontroleerde soortvoorbeelden; meerstammige bomen hebben een eigen onderdeel op beide teeltpagina’s. Dit is een vaste presentatie van het assortiment, geen live voorraadkoppeling. Beschikbaarheid, maat en levermoment worden rechtstreeks met de kweker afgestemd. Raadpleeg SOURCES.md voordat u voorbeelden of leverclaims wijzigt.
